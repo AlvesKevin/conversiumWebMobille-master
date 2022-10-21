@@ -1,0 +1,877 @@
+html body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #5652fe;
+    width: 100%;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :visited :hover :active{
+    text-decoration: none;
+    color: white;
+}
+
+.logoHeader{
+    width: 330px;
+    height: 50px;
+    margin: 40px;
+}
+
+.texteNav{
+    position: absolute;
+    display: flex;
+    width: 630px;
+    height: 30px;
+    justify-content: space-between;
+    right: 300px;
+    top: 45px;
+    color: white;
+    font-size: 18px;
+}
+
+#texte1{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte2{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte3{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#numeroTelephoneHeader{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.bouton{
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    right: 30px;
+    top: 25px;
+    text-align: center;
+    background: #323158;
+    border-radius: 90px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.bouton:hover{
+    background: #3f3f7a;
+    cursor: pointer;
+}
+
+.bouton2{
+    margin: 30px auto;
+    width: 221px;
+    height: 50px;
+    text-align: center;
+    background: #323158;
+    border-radius: 90px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.bouton2:hover{
+    background: #3f3f7a;
+    cursor: pointer;
+}
+
+.ligne{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.66);
+}
+
+.page1 {
+    background-color: #5552FF;
+    background-image: url("/img/backgroundHome.png");
+    width: 100%;
+    height: 878px;
+}
+
+#containerLogoPage1{
+    margin: 0 auto;
+    width: 750px;
+    height: 120px;
+}
+
+#logoPage1{
+    padding-top: 30px;
+    width: 750px;
+    height: 120px;
+}
+
+#paragrapheLogo{
+    margin: 50px auto;
+    width: 330px;
+    height: 67px;
+    font-size: 25px;
+    color: #fdfdfe;
+}
+
+#paragraphe2Page1{
+    width: 985px;
+    height: 60px;
+    margin: 0 auto;
+    color: white;
+    font-weight: normal;
+}
+
+.illustrationPage1{
+    width: 1000px;
+    height: 560px;
+    margin: 100px auto;
+}
+
+.quiSommeNous{
+    width: 100%;
+    height: 750px;
+}
+
+.containerTexte{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 100px;
+    width: 580px;
+    height: 720px;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.titreQuiSommesNous{
+    width: 687px;
+    height: 81px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 79px;
+    margin-left: 30px;
+    color: #5552FF;
+}
+
+.ligneQuiSommesNous{
+    width: 300px;
+    height: 2px;
+    background-color: rgba(107, 107, 107, 0.66);
+    position: absolute;
+    top: 100px;
+    left: 30px;
+}
+
+.titre2QuiSommesNous{
+    font-weight: bold;
+    font-size: 28px;
+    width: 370px;
+    margin: 30px;
+    color: #5552FF;
+}
+
+.paragrapheQuiSommesNous{
+    margin: 30px;
+    font-size: 25px;
+    width: 420px;
+}
+
+.containerIllustration{
+    position: absolute;
+    width: 92%;
+    height: 620px;
+    left: 63px;
+    top: 1350px;
+    z-index: 1;
+    background: url(/img/backgroundContainerQuiNousSomme.png), no-repeat;
+    border-radius: 30px;
+}
+
+#illustrationQuiSommesNous{
+    margin-left: 55%;
+    margin-top: 80px;
+}
+
+.nosOffres{
+    width: 100%;
+    height: 750px;
+}
+
+.containerTexteOffre{
+    position: absolute;
+    right: 120px;
+    width: 580px;
+    height: 720px;
+    z-index: 2;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+}
+
+.containerIllustrationOffre{
+    position: absolute;
+    width: 92%;
+    height: 620px;
+    left: 63px;
+    top: 2130px;
+    z-index: 1;
+    background: url(/img/backgroundContainerQuiNousSomme.png), no-repeat;
+    border-radius: 30px;
+}
+
+#illustrationLogoOffres{
+    margin-left: 8%;
+    margin-top: 30px;
+}
+
+.nosCreations{
+    width: 100%;
+    height: 400px;
+    background-color: #323158;
+}
+
+.illustrationBackNosCreations{
+    width: 100%;
+    height: 300px;
+    background-color: #5552FF;
+}
+
+#titreNosCreations{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 86px;
+    color: #FFFFFF;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+#ligneNosCreations{
+    width: 500px;
+    height: 3px;
+    background-color: #fdfdfe;
+    margin-left: 60px;
+}
+
+#illustrationCreation{
+    position: absolute;
+    width: 300px;
+    right: 300px;
+    z-index: 1;
+}
+
+.containerSite{
+    position: relative;
+    z-index: 2;
+    margin-top: 350px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#logo1{
+    margin-left: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+#logo2{
+    width: 280px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#logo3{
+    width: 400px;
+    height: 100px;
+}
+
+#logo4{
+    margin-right: 20px;
+    width: 200px;
+    height: 90px;
+}
+
+
+.footer{
+    position: absolute;
+    top: 3600px;
+    width: 100%;
+    height: 250px;
+    background-image: url("/img/footer.png");
+}
+
+#logoFooter{
+    width: 400px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+#logoFooter{
+    width: 400px;
+    height: 75px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+#logoFooter img{
+    width: 400px;
+    height: 75px;
+}
+
+.containerLieu{
+    display: flex;
+    width: 600px;
+    height: 56px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#illustrationLieu{
+    width: 44px;
+    height: 44px;
+}
+
+#texteAdresse{
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+#texteAdresse span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.containerContact{
+    position: absolute;
+    top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    color: white;
+    right: 0;
+}
+
+.telephone{
+    font-size: 18px;
+}
+
+.telephone span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.mail{
+    font-size: 18px;
+}
+
+.mail span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.reseau{
+    position: absolute;
+    top: 150px;
+    width: 60px;
+    right: 345px;
+}
+
+@media (max-width: 1229px) {
+
+    #illustrationCreation{
+        display: none;
+    }
+
+    .logoHeader{
+        display: none;
+    }
+
+    .texteNav{
+        display: flex;
+        width: 500px;
+        height: 26px;
+        justify-content: space-between;
+        right: 300px;
+        top: 50px;
+        color: white;
+        font-size: 18px;
+    }
+
+    .containerTexte{
+        margin: 0 auto;
+        min-width: 30%;
+        height: 720px;
+        z-index: 2;
+        background: #FFFFFF;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+    }
+
+    .containerIllustration{
+        display: none;
+    }
+
+    .containerTexteOffre{
+        position: unset;
+        margin: 0 auto;
+        min-width: 30%;
+        height: 720px;
+        z-index: 2;
+        background: #FFFFFF;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 30px;
+    }
+
+    .containerIllustrationOffre{
+        display: none;
+    }
+
+    #illustrationLogoOffres{
+        display: none;
+    }
+
+    #illustrationQuiSommesNous{
+        display: none;
+    }
+
+    #containerLogoPage1{
+        margin: 0 auto;
+        width: 650px;
+        height: 100px;
+    }
+
+    #logoPage1{
+        padding-top: 30px;
+        width: 650px;
+        height: 100px;
+    }
+
+    .illustrationPage1{
+        display: none;
+    }
+
+    #paragraphe2Page1{
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .bouton2{
+        margin: 90px auto;
+    }
+
+    .illustrationBackNosCreations{
+        width: 100%;
+        height: 300px;
+        background: #5552FF;
+    }
+
+    .containerSite{
+        margin: 200px auto;
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+    }
+
+    #logo1{
+        margin: 30px auto;
+    }
+
+    #logo2{
+        margin: 30px auto;
+    }
+
+    #logo3{
+        margin: 30px auto;
+    }
+
+    #logo4{
+        margin: 30px auto;
+    }
+
+    .footer{
+        position: absolute;
+        top: 3500px;
+        width: 100%;
+        height: 250px;
+        background-image: url("/img/footer.png");
+    }
+
+    .ligneQuiSommesNous{
+        display: none;
+    }
+}
+
+@media (max-width: 842px) {
+
+    .ligneQuiSommesNous{
+        display: none;
+    }
+
+    #illustrationCreation{
+        display: none;
+    }
+
+    header{
+        display: none;
+    }
+
+    .page1{
+        padding-top: 100px;
+        height: 778px;
+    }
+    .footer{
+        position: absolute;
+        top: 3500px;
+        width: 100%;
+        height: 350px;
+        background-image: url("/img/footer.png");
+    }
+
+    #logoFooter{
+        width: 400px;
+        height: 75px;
+        margin: 20px auto;
+    }
+
+    #logoFooter img{
+        width: 400px;
+        height: 75px;
+    }
+
+    .containerLieu{
+        display: flex;
+        width: 450px;
+        height: 56px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .containerContact{
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .reseau{
+        width: 60px;
+        margin: 125px auto;
+    }
+}
+
+@media (max-width: 750px) {
+
+    #illustrationCreation{
+        display: none;
+    }
+
+    .footer{
+        position: absolute;
+        top: 3500px;
+        width: 100%;
+        height: 350px;
+        background-image: url("/img/footer.png");
+    }
+
+    #logoFooter{
+        width: 400px;
+        height: 75px;
+        margin: 20px auto;
+    }
+
+    #logoFooter img{
+        width: 400px;
+        height: 75px;
+    }
+
+    .containerLieu{
+        display: flex;
+        width: 450px;
+        height: 56px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .containerContact{
+        position: unset;
+        display: flex;
+        flex-direction: column;
+
+        width: 350px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    .reseau{
+        width: 60px;
+        margin: 125px auto;
+    }
+
+    #containerLogoPage1{
+        margin: 0 auto;
+        width: 470px;
+        height: 80px;
+    }
+
+    #logoPage1{
+        padding-top: 30px;
+        width: 470px;
+        height: 80px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    body{
+        background-color: #FFFFFF;
+    }
+
+    header{
+        display: none;
+    }
+
+    .page1 {
+        background-color: #5552FF;
+        background-image: url("/img/backgroundMobile.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 640px;
+    }
+
+    #containerLogoPage1{
+        margin: 0 auto;
+        width: 320px;
+        height: 43px;
+    }
+
+    #logoPage1{
+        padding-top: 30px;
+        width: 320px;
+        height: 50px;
+    }
+
+    #paragrapheLogo{
+        margin: 50px auto;
+        width: 270px;
+        height: 40px;
+        font-size: 20px;
+        color: #fdfdfe;
+    }
+
+    #paragraphe2Page1{
+        width: 287px;
+        height: 86px;
+        margin: 0 auto;
+        color: white;
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+    .quiSommeNous{
+        width: 100%;
+        height: 397px;
+    }
+
+    .containerTexte{
+        width: 100%;
+        height: 397px;
+        background: #FFFFFF;
+        border-radius: 0;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+    }
+
+    .titreQuiSommesNous{
+        width: 270px;
+        height: 28px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        margin-left: 30px;
+        color: #5552FF;
+    }
+
+    .ligneQuiSommesNous{
+        width: 300px;
+        height: 2px;
+        background-color: rgba(107, 107, 107, 0.66);
+    }
+
+    .titre2QuiSommesNous{
+        font-weight: bold;
+        font-size: 20px;
+        width: 330px;
+        margin-left: 30px;
+        margin-top: 50px;
+        color: #5552FF;
+    }
+
+    .paragrapheQuiSommesNous{
+        margin: 30px;
+        font-size: 18px;
+        width: 300px;
+    }
+
+    .nosOffres{
+        width: 100%;
+        height: 397px;
+    }
+
+    .containerTexteOffre{
+        width: 580px;
+        height: 397px;
+        background: #FFFFFF;
+        box-shadow: 0 0 0 rgba(0, 0, 0, 0);
+        border-radius: 0;
+    }
+
+    .illustrationBackNosCreations{
+        margin-top: 100px;
+        width: 100%;
+        height: 250px;
+        background-image: url("/img/backgroundCreation.png");
+    }
+
+    #titreNosCreations{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 86px;
+        color: #FFFFFF;
+        margin-top: 60px;
+        margin-left: 15px;
+    }
+
+    #ligneNosCreations{
+        display: none;
+    }
+
+    .containerSite{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .site1{
+        width: 100%;
+        height: 250px;
+        background-image: url("/img/site1.png");
+        background-size: cover;
+        margin-top: 0;
+    }
+
+    .site2{
+        width: 100%;
+        height: 250px;
+        background-image: url("/img/site2.png");
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .site3{
+        width: 100%;
+        height: 250px;
+        background-image: url("/img/site3.png");
+        background-size: cover;
+        margin-top: 100px;
+    }
+
+    .footer{
+        position: absolute;
+        top: 2850px;
+        width: 100%;
+        height: 300px;
+        background-image: url("/img/footer.png");
+    }
+
+    #logoFooter{
+        width: 300px;
+        height: 45px;
+        margin: 30px auto;
+    }
+
+    #logoFooter img{
+        width: 300px;
+        height: 45px;
+    }
+
+    .containerLieu{
+        display: flex;
+        width: 100%;
+        height: 56px;
+        color: white;
+        margin: 0 auto;
+    }
+
+    #illustrationLieu{
+        width: 35px;
+        height: 35px;
+    }
+
+    #texteAdresse{
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    #texteAdresse span{
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    .containerContact{
+        position: unset;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        color: white;
+    }
+
+    .telephone{
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .mail{
+        font-size: 18px;
+        margin: 0 auto;
+    }
+
+    .reseau{
+        display: none;
+    }
+}
+
+

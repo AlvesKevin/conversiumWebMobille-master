@@ -1,0 +1,231 @@
+html body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+    overflow-x: hidden;
+    background-color: #5652fe;
+    background-image: url("/img/backgroundQuestionnaire.png");
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #5652fe;
+    width: 100%;
+    height: 120px;
+    background-image: url("/img/backgroundQuestionnaire.png");
+
+}
+
+.logoHeader{
+    width: 330px;
+    height: 50px;
+    margin: 40px;
+}
+
+.texteNav{
+    position: absolute;
+    display: flex;
+    width: 500px;
+    height: 26px;
+    justify-content: space-between;
+    right: 150px;
+    top: 50px;
+    color: white;
+    font-size: 18px;
+}
+
+#texte1{
+    cursor: pointer;
+}
+
+#texte2{
+    cursor: pointer;
+}
+
+#texte3{
+    cursor: pointer;
+}
+
+.bouton{
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    right: 30px;
+    top: 25px;
+    text-align: center;
+    background: #323158;
+    border-radius: 90px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.bouton:hover{
+    background: #3f3f7a;
+    cursor: pointer;
+}
+
+.bouton2{
+    margin: 30px auto;
+    width: 221px;
+    height: 50px;
+    text-align: center;
+    background: #323158;
+    border-radius: 90px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.bouton2:hover{
+    background: #3f3f7a;
+    cursor: pointer;
+}
+
+.ligne{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.66);
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 700px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.containerQuestion{
+    width: 400px;
+    height: 600px;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+#textePrenom{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#NomPrenom{
+    width: 270px;
+    height: 40px;
+}
+
+#texteSociete{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#nomSociete{
+    width: 270px;
+    height: 40px;
+}
+
+#texteBudget{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#budget{
+    width: 150px;
+    height: 40px;
+}
+
+#texteCahierCharge{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#cahierDesCharges{
+    width: 40px;
+    height: 40px;
+}
+
+#texteMail{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#email{
+    width: 150px;
+    height: 40px;
+}
+
+#texteTelephone{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#telephone{
+    width: 150px;
+    height: 40px;
+}
+
+.containerInfoProjet{
+    margin-top: 48px;
+}
+
+#texteInfoProjet{
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Istok Web', sans-serif;
+}
+
+#infoProjet{
+
+}
+
+.containerTexte{
+    width: 500px;
+    height: 400px;
+    color: white;
+    margin-top: 45px;
+}
+
+#texte1Projet{
+    width: 500px;
+    height: 20px;
+    font-family: 'Istok Web', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#texte2Projet{
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 25px;
+}
+
+@media (max-width: 1062px) {
+    .texteNav{
+        display: none;
+    }
+}
+
+
