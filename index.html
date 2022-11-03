@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
 <head>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -24,9 +24,11 @@
 <header>
     <img class="logoHeader" src="img/logo.png" alt="logo">
     <nav class="texteNav">
-        <a href="#ancrePage1"><div id="texte1">Qui sommes nous ?</div></a>
+        <a href="#ancrePage1"><div id="texte1">Qui sommes-nous ?</div></a>
         <a href="#ancreNosOffres"><div id="texte2">Nos offres</div></a>
-        <a href="#ancreNosCreations"><div id="texte3">Nos partenaires</div></a>
+        <a href="#ancreNosTechnologies"><div id="texte3">Nos technologies</div></a>
+        <a href="#ancreNosArticles"><div id="texte4">Nos articles</div></a>
+        <a href="#ancreNosReferences"><div id="texte5">Nos références</div></a>
         <a href="tel:+331 80 88 60 00" id="numeroTelephoneHeader">01 80 88 60 00</a>
     </nav>
     <a href="typeform.html" class="bouton">CONTACTEZ-NOUS</a>
@@ -47,54 +49,210 @@
     </div>
     <div class="quiSommeNous">
         <div id="ancrePage1"></div>
-        <div class="containerTexte">
-            <h1 class="titreQuiSommesNous">QUI SOMMES-NOUS ?</h1>
-            <div class="ligneQuiSommesNous"></div>
-            <h2 class="titre2QuiSommesNous">UNE BELLE ÉQUIPE PLEINE DE TALENT ET À VOTRE ÉCOUTE</h2>
-            <p class="paragrapheQuiSommesNous">Conversium, c'est une équipe de développeur, une équipe de communication et vous ! Ensemble, nous sommes là pour développer vos idées et réaliser un projet le plus proche possible de votre vision des choses. Du talent, de la bonne humeur, une oreille à l'écoute, vous hésites encore ?</p>
+        <div class="containerTexteQuiSommesNous">
+            <h2 id="titreQuiSommesNous">QUI <strong><br>SOMMES-NOUS ?<br></strong></h2>
+            <p id="paragrapheQuiSommesNous">Conversium, c'est une équipe de développeur, une équipe de communication et vous ! Ensemble, nous sommes là pour développer vos idées et réaliser un projet le plus proche possible de votre vision des choses. Du talent, de la bonne humeur, une oreille à l'écoute, vous hésites encore ?</p>
         </div>
-        <div class="containerIllustration">
-            <img id="illustrationQuiSommesNous" src="img/illustrationQuiSommeNous.svg" alt="illustration">
-        </div>
+        <img id="illustrationQuiSommesNous" src="img/illustrationQuiSommesNous.svg" alt="illustration">
     </div>
     <div class="nosOffres">
         <div id="ancreNosOffres"></div>
-        <div class="containerTexteOffre">
-            <h1 class="titreQuiSommesNous">NOS OFFRES</h1>
-            <div class="ligneQuiSommesNous"></div>
-            <h2 class="titre2QuiSommesNous">PROJET WEB, MOBILE ? NOUS NOUS OCCUPONS DE TOUT</h2>
-            <p class="paragrapheQuiSommesNous">Vous avez une idée d'application mobile original ou vous avez besoin d'un site internet pour votre commerce ? Il vous suffit de contacter nos équipes, de répondre à un court questionnaire nous permettant d'identifier vos besoins et vos demandes. Nos équipes vous contact ensuite pour discuter avec vous et voir dans quelle direction vous voulez partir !</p>
+        <div class="containerSelectionNosOffres">
+            <div id="selectionneur1">
+                <script src="js/selectionneur1.js"></script>
+                <h1>Application mobile</h1>
+            </div>
+            <div id="selectionneur2">
+                <script src="js/selectionneur2.js"></script>
+                <h1>Logiciel</h1>
+            </div>
+            <div id="selectionneur3">
+                <script src="js/selectionneur3.js"></script>
+                <h1>Site internet</h1>
+            </div>
+            <div id="selectionneur4">
+                <script src="js/selectionneur4.js"></script>
+                <h1>Prototypage</h1>
+            </div>
         </div>
-        <div class="containerIllustrationOffre">
-            <img id="illustrationLogoOffres" src="img/illustrationLogoNosOffres.svg" alt="logoOffre">
+        <div class="containerTexteNosOffres">
+            <h2>NOS <strong>OFFRES</strong></h2>
+            <h1 id="titreNosOffres">Application mobile</h1>
+            <div class="paragrapheNosOffres"><p>Nam quis enim. Quisque ornare dui a tortor. Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar. Cras a lacus. Etiam et massa. Donec in nisl sit amet dui imperdiet vestibulum. Duis porttitor nibh id eros.</p></div>
+            <div class="containerBoutonNosOffres"><div class="boutonNosOffres">EN SAVOIR PLUS</div></div>
         </div>
     </div>
-
-    <div class="illustrationBackNosCreations">
-        <div id="ancreNosCreations"></div>
-        <img id="illustrationCreation" src="img/illustrationCreations.svg" alt="illustration">
-        <div id="titreNosCreations">NOS REFERENCES</div>
-        <div id="ligneNosCreations"></div>
+    <div class="nosTechnologies">
+        <div id="ancreNosTechnologies"></div>
+        <div class="containerTexteNosTechnologies">
+            <h2 id="titreNosTechnologies">NOS <strong><br>TECHNOLOGIES<br></strong></h2>
+            <p id="paragrapheNosTechnologies">Nam quis enim. Quisque ornare dui a tortor. Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar. Cras a lacus. Etiam et massa. Donec in nisl sit amet dui imperdiet vestibulum. Duis porttitor nibh id eros.</p>
+            <div id="boutonNosTechnologies">NOUS CONTACTEZ</div>
+        </div>
+        <div class="containerIllustrationTechnologies">
+            <div id="sliderIlustration" class="hcg-slider">
+                <div class="hcg-slide-container">
+                    <div class="hcg-slider-body">
+                        <a class="hcg-slides animated" style="display:flex">
+                            <img src="https://html-generator.com/uploads/images/2022/11/02/797475QV9PU1Y19.png" alt="797475QV9PU1Y19.png">
+                            <span class="hcg-slide-text">797475QV9PU1Y19.png</span>
+                        </a>
+                    </div>
+                    <a href="#" id="hcg-slide-prev">❮</a>
+                    <a href="#" id="hcg-slide-next">❯</a>
+                </div>
+                <div class="hcg-slide-dot-control"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="nosArticles">
+        <div id="ancreNosArticles"></div>
+        <h2>NOS <strong>ARTICLES</strong></h2>
+        <div id="containerArticle">
+            <div id="article1">
+                <img src="img/illustrationArticle.svg" alt="illustrationArticle1">
+                <p id="titreArticle1">Nam quis enim. Quisque ornare dui a tortor.</p>
+                <p id="paragrapheArticle1">Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar.</p>
+            </div>
+            <div id="article2">
+                <img src="img/illustrationArticle.svg" alt="illustrationArticle1">
+                <p id="titreArticle2">Nam quis enim. Quisque ornare dui a tortor.</p>
+                <p id="paragrapheArticle2">Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar.</p>
+            </div>
+        </div>
+    </div>
+    <div class="nosReferences">
+        <div id="ancreNosReferences"></div>
+        <h2>NOS <strong>REFERENCES</strong></h2>
         <div class="containerSite">
-            <img id="logo1" src="img/logoDaAssurance.svg">
-            <img id="logo2" src="img/logoSofanmedia.png">
-            <img id="logo3" src="img/logoEcoConfortSolutions.svg">
-            <img id="logo4" src="img/logoVoxen.jpg">
+            <img class="logo1" src="img/logoDaAssurance.svg" alt="logo DaAssurance">
+            <img class="logo2" src="img/logoSofanmedia.png" alt="logo Sofanmedia">
+            <img class="logo3" src="img/logoEcoConfortSolutions.svg" alt="logo EcoConfortSolutions">
+            <img class="logo4" src="img/logoVoxen.png" alt="logo Voxen">
+            <img class="logo5" src="img/logoExodial.png" alt="logo Exodial">
         </div>
     </div>
+    </div>
+<script>
+    (() => {
+//If you want to add more images, add the link name and URL image URL in the array list below.
+        const images_list = [
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/797475QV9PU1Y19.png",
+                "alt": "",
+                "name": "797475QV9PU1Y19.png",
+                "link": ""
+            },
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/48952IAMJ9K86TK.png",
+                "alt": "",
+                "name": "48952IAMJ9K86TK.png",
+                "link": ""
+            },
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/6603678EJ5FZU8U.png",
+                "alt": "",
+                "name": "6603678EJ5FZU8U.png",
+                "link": ""
+            },
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/73989OPJ768DY_8.png",
+                "alt": "",
+                "name": "73989OPJ768DY_8.png",
+                "link": ""
+            },
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/80533Y2XDKXYV98.png",
+                "alt": "",
+                "name": "80533Y2XDKXYV98.png",
+                "link": ""
+            },
+            {
+                "url": "https://html-generator.com/uploads/images/2022/11/02/88912_F325ZR5C_.png",
+                "alt": "",
+                "name": "88912_F325ZR5C_.png",
+                "link": ""
+            }
+        ];
+
+        let slider_id = document.querySelector("#sliderIlustration");
+
+        // append all images
+        let dots_div = "";
+        let images_div = "";
+        for (let i = 0; i < images_list.length; i++) {
+            // if no link without href="" tag
+            let href = (images_list[i].link == "" ? "":' href="'+images_list[i].link+'"');
+            images_div += '<a'+href+' class="hcg-slides animated"'+(i === 0 ? ' style="display:flex"':'')+'>'+
+                '<img src="'+images_list[i].url+'" alt="'+images_list[i].name+'">'+
+                '</a>';
+            dots_div += '<a href="#" class="hcg-slide-dot'+(i === 0 ? ' dot-active':'')+'" data-id="'+i+'"></a>';
+        }
+        slider_id.querySelector(".hcg-slider-body").innerHTML = images_div;
+        slider_id.querySelector(".hcg-slide-dot-control").innerHTML = dots_div;
+
+        let slide_index = 0;
+
+        const images = slider_id.querySelectorAll(".hcg-slides");
+        const dots = slider_id.querySelectorAll(".hcg-slide-dot");
+        const prev_button = slider_id.querySelector("#hcg-slide-prev");
+        const next_button = slider_id.querySelector("#hcg-slide-next");
+
+        const showSlides = () => {
+            if (slide_index > images.length-1) {
+                slide_index = 0;
+            }
+            if (slide_index < 0) {
+                slide_index = images.length-1;
+            }
+            for (let i = 0; i < images.length; i++) {
+                images[i].style.display = "none";
+                dots[i].classList.remove("dot-active");
+                if (i == slide_index) {
+                    images[i].style.display = "flex";
+                    dots[i].classList.add("dot-active");
+                }
+            }
+        }
+
+        prev_button.addEventListener("click", event => {
+            event.preventDefault();
+            slide_index--;
+            showSlides();
+        }, false);
+
+        next_button.addEventListener("click", event => {
+            event.preventDefault();
+            slide_index++;
+            showSlides();
+        }, false);
+
+        const dot_click = event => {
+            event.preventDefault();
+            slide_index = event.target.dataset.id;
+            showSlides();
+        }
+
+        for (let i = 0; i < dots.length; i++) {
+            dots[i].addEventListener("click", dot_click, false);
+        }
+    })();
+</script>
 </body>
 <footer>
     <div class="footer">
         <div id="logoFooter"><img src="img/logo.png" alt="logo"></div>
-        <div class="containerLieu">
-            <img id="illustrationLieu" src="/img/illustrationLieu.svg" alt="lieu">
-            <div id="texteAdresse"><span>Paris</span> : 10 Rue du colisee 75008</div>
-        </div>
         <div class="containerContact">
-            <div class="telephone">Téléphone : 01 80 88 60 00</div>
-            <div class="mail">Mail : contact@conversium.fr</div>
+            <div class="containerLieu">
+                <img id="illustrationLieu" src="/img/illustrationLieu.svg" alt="lieu">
+                <div id="texteAdresse"><span>Paris</span> : 10 Rue du colisee 75008</div>
+            </div>
+            <a href="tel:+331 80 88 60 00" class="telephone"><span>Telephone</span> : 01 80 88 60 00</a>
+            <a href="mailto:contact@conversium.fr" class="mail"><span>Mail</span> : contact@conversium.fr</a>
         </div>
-        <a href="https://www.linkedin.com/company/conversiumfrance/"><img class="reseau" src="img/logoLinkedin.svg" alt="linkdin"></a>
+        <a href="https://www.linkedin.com/company/conversiumfrance/"><div class="reseau"><img src="img/logoLinkedin.svg" alt="linkdin"></div></a>
+        <p id="copyright">Copyright © 2022 Conversium | Mentions légales</p>
     </div>
 </footer>
 </html>
