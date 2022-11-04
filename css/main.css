@@ -846,13 +846,13 @@ a :visited :hover :active{
     }
 
     .bouton2{
-        margin: 90px auto;
+        margin: 60px auto;
     }
 
     .nosOffres{
         display: flex;
         width: 100%;
-        height: 700px;
+        height: 650px;
         background-color: #0D0B3F;
     }
 
@@ -1038,7 +1038,7 @@ a :visited :hover :active{
 
     .quiSommeNous{
         width: 100%;
-        height: 600px;
+        height: 550px;
         background-color: #0D0B3F;
         display: flex;
         margin: 0;
@@ -1104,6 +1104,7 @@ a :visited :hover :active{
     }
 
     .containerBoutonNosOffres{
+        margin-top: 50px;
         width: 100%;
     }
 
@@ -1134,17 +1135,17 @@ a :visited :hover :active{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        margin: 150px auto;
-        width: 100%;
+        margin: 100px auto;
+        width: 90%;
     }
 
     #article1 img{
-        width: 400px;
+        width: 100%;
         height: 350px;
     }
 
     #article2 img{
-        width: 400px;
+        width: 100%;
         height: 350px;
     }
 
@@ -1152,11 +1153,11 @@ a :visited :hover :active{
         font-size: 25px;
         color: #24ce8c;
         font-weight: bold;
-        width: 400px;
+        width: 90%;
     }
 
     #paragrapheArticle1{
-        width: 400px;
+        width: 100%;
         color: white;
     }
 
@@ -1164,11 +1165,11 @@ a :visited :hover :active{
         font-size: 25px;
         color: #24ce8c;
         font-weight: bold;
-        width: 400px;
+        width: 90%;
     }
 
     #paragrapheArticle2{
-        width: 400px;
+        width: 100%;
         color: white;
     }
 
@@ -1177,8 +1178,42 @@ a :visited :hover :active{
         width: 100%;
     }
 
+    #paragrapheNosOffres{
+        width: 74%;
+        margin: 0 auto;
+        font-size: 20px;
+    }
 
+    #logoFooter{
+        width: 70%;
+        height: 50px;
+        margin: 40px auto;
+    }
 
+    #logoFooter img{
+        width: 100%;
+        height: 50px;
+    }
+
+    #texteNumeroVersionMobile{
+        width: 40px;
+        margin: 0 auto;
+    }
+
+    #numeroVersionMobile{
+        width: 200px;
+        margin: 30px auto;
+        font-size: 30px;
+        color: white;
+    }
+
+    .page1{
+        width: 100%;
+        height: 700px;
+        margin: 0 auto;
+        font-size: 30px;
+        color: white;
+    }
 
 }
 
