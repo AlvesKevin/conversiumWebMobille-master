@@ -1,0 +1,119 @@
+html body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Istok Web', sans-serif;
+    overflow-x: hidden;
+    background-color: #0D0B3F;
+    color: white;
+}
+
+.texte{
+    width: 1200px;
+    margin: 100px auto;
+}
+
+header{
+    margin: 0;
+    padding: 0;
+    background-color: #0D0B3F;
+    width: 100%;
+    height: 120px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a :visited :hover :active{
+    text-decoration: none;
+    color: white;
+}
+
+.logoHeader{
+    width: 330px;
+    height: 50px;
+    margin: 40px;
+}
+
+.texteNav{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    height: 30px;
+    justify-content: space-between;
+    right: 300px;
+    top: 45px;
+    color: white;
+    font-size: 15px;
+}
+
+#texte1{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte2{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte3{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte4{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte5{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#texte6{
+    margin-top: 7px;
+    cursor: pointer;
+}
+
+#numeroTelephoneHeader{
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.bouton{
+    position: absolute;
+    width: 221px;
+    height: 50px;
+    right: 30px;
+    top: 25px;
+    text-align: center;
+    background: #24ce8c;
+    border-radius: 90px;
+    font-family: 'Istok Web', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+}
+
+.bouton:hover{
+    background: #2eeca0;
+    cursor: pointer;
+}
+
+.ligne{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    width: 95%;
+    height: 2px;
+    background-color: rgba(255, 255, 255, 0.66);
+}
+
+h1{
+    color: #2eeca0;
+}

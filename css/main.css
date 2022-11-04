@@ -285,19 +285,23 @@ a :visited :hover :active{
     margin-right: 140px;
 }
 
-.paragrapheNosOffres{
-    width: 100%;
+#paragrapheNosOffres{
+    width: 88%;
     font-size: 20px;
 }
 
 .paragrapheNosOffres p{
     width: 600px;
     float: right;
-    margin-right: 140px;
+    background-color: #5652fe;
 }
 
 .containerBoutonNosOffres{
     width: 100%;
+}
+
+.boutonNosOffres:hover{
+    background: #2eeca0;
 }
 
 .boutonNosOffres{
@@ -350,6 +354,10 @@ a :visited :hover :active{
     font-weight: bold;
     color: white;
     padding-top: 20px;
+}
+
+#boutonNosTechnologies:hover{
+    background: #2eeca0;
 }
 
 .containerIllustrationTechnologies{
@@ -563,6 +571,7 @@ a :visited :hover :active{
 }
 
 #titreArticle1{
+    width: 400px;
     font-size: 25px;
     color: #24ce8c;
     font-weight: bold;
@@ -579,6 +588,7 @@ a :visited :hover :active{
 }
 
 #titreArticle2{
+    width: 400px;
     font-size: 25px;
     color: #24ce8c;
     font-weight: bold;
@@ -855,8 +865,7 @@ a :visited :hover :active{
         font-size: 15px;
     }
 
-    .paragrapheNosOffres{
-        width: 100%;
+    #paragrapheNosOffres{
         font-size: 20px;
     }
 
@@ -999,14 +1008,14 @@ a :visited :hover :active{
 
     #containerLogoPage1{
         margin: 80px auto;
-        width: 450px;
-        height: 80px;
+        width: 350px;
+        height: 60px;
     }
 
     #logoPage1{
         padding-top: 30px;
-        width: 450px;
-        height: 80px;
+        width: 350px;
+        height: 60px;
     }
 
     #paragraphe2Page1{
@@ -1016,7 +1025,7 @@ a :visited :hover :active{
         color: white;
         font-weight: normal;
         text-align: center;
-        font-size: 25px;
+        font-size: 20px;
     }
 
     #illustrationQuiSommesNous{
@@ -1025,6 +1034,28 @@ a :visited :hover :active{
 
     .containerSelectionNosOffres{
         display: none;
+    }
+
+    .quiSommeNous{
+        width: 100%;
+        height: 600px;
+        background-color: #0D0B3F;
+        display: flex;
+        margin: 0;
+
+    }
+
+    .containerTexteQuiSommesNous{
+        width: 100%;
+        margin-top: 0;
+        margin-left: 50px;
+    }
+
+    #paragrapheQuiSommesNous{
+        width: 300px;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
     }
 
     .containerTexteNosOffres{
@@ -1039,7 +1070,7 @@ a :visited :hover :active{
         font-size: 40px;
         margin-top: 70px;
         margin-right: 0;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     .containerTexteNosOffres strong{
@@ -1049,19 +1080,23 @@ a :visited :hover :active{
     .containerTexteNosOffres h1{
         font-size: 30px;
         margin-right: 0;
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
-    .paragrapheNosOffres{
-        width: 70%;
+    #paragrapheNosOffres{
         font-size: 20px;
-        margin-left: 100px;
     }
 
     .paragrapheNosOffres p{
         width: 100%;
         float: none;
         margin-right: 0;
+    }
+
+    .containerTexteNosTechnologies{
+        margin-top: 100px;
+        margin-left: 50px;
+        width: 600px;
     }
 
     .containerIllustrationTechnologies{
@@ -1085,13 +1120,64 @@ a :visited :hover :active{
         color: white;
         padding-top: 20px;
         float: left;
-        margin-left: 100px;
+        margin-left: 50px;
+    }
+
+    .nosArticles{
+        width: 100%;
+        height: 1450px;
+        margin: 100px auto;
+        background-color: #0D0B3F;
+    }
+
+    #containerArticle{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: 150px auto;
+        width: 100%;
+    }
+
+    #article1 img{
+        width: 400px;
+        height: 350px;
+    }
+
+    #article2 img{
+        width: 400px;
+        height: 350px;
+    }
+
+    #titreArticle1{
+        font-size: 25px;
+        color: #24ce8c;
+        font-weight: bold;
+        width: 400px;
+    }
+
+    #paragrapheArticle1{
+        width: 400px;
+        color: white;
+    }
+
+    #titreArticle2{
+        font-size: 25px;
+        color: #24ce8c;
+        font-weight: bold;
+        width: 400px;
+    }
+
+    #paragrapheArticle2{
+        width: 400px;
+        color: white;
     }
 
     .nosReferences{
-        height: 750px;
+        height: 950px;
         width: 100%;
     }
+
+
 
 
 }

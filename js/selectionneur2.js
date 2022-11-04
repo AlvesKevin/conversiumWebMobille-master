@@ -5,5 +5,5 @@ selectionneur2.addEventListener('click', function (){
     document.getElementById("selectionneur4").style.backgroundImage = "none";
     document.getElementById("selectionneur3").style.backgroundImage = "none";
     document.getElementById("titreNosOffres").innerHTML = "Logiciel";
-    document.getElementsByClassName("paragrapheNosOffres").innerHTML = "Nam quis enim. Quisque ornare dui a tortor. Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar. Cras a lacus. Etiam et massa. Donec in nisl sit amet dui imperdiet vestibulum. Duis porttitor nibh id eros.\n";
+    document.getElementById("paragrapheNosOffres").innerHTML = "Nos équipes de développeur ayant déjà travaillé antérieurement sur des projets logiciels, ils n’auront aucun mal à vous accompagner. Nous pouvons couvrir tout type de domaine et cela sera un plaisir de travailler avec vous sur un nouveau projet.\n";
 });

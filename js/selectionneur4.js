@@ -5,5 +5,5 @@ selectionneur4.addEventListener('click', function (){
     document.getElementById("selectionneur4").style.backgroundImage = "url('./img/selectionNosOffres.svg')";
     document.getElementById("selectionneur3").style.backgroundImage = "none";
     document.getElementById("titreNosOffres").innerHTML = "Prototypage";
-    document.getElementsByClassName("paragrapheNosOffres").innerHTML = "Nam quis enim. Quisque ornare dui a tortor. Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar. Cras a lacus. Etiam et massa. Donec in nisl sit amet dui imperdiet vestibulum. Duis porttitor nibh id eros.\n";
+    document.getElementById("paragrapheNosOffres").innerHTML = "Vous avez une idée de projet informatique mais vous ne savez pas comment la mettre en place ? Appelez nous que vous ayez besoin d’avis de la part de professionnel, si vous avez besoin d’un prototype pour votre application ou bien de tester diffèrent design, nous sommes là pour vous.\n";
 });

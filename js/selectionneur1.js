@@ -5,5 +5,5 @@ selectionneur1.addEventListener('click', function (){
     document.getElementById("selectionneur4").style.backgroundImage = "none";
     document.getElementById("selectionneur3").style.backgroundImage = "none";
     document.getElementById("titreNosOffres").innerHTML = "Application mobile";
-    document.getElementsByClassName("paragrapheNosOffres").innerHTML = "Nam quis enim. Quisque ornare dui a tortor. Fusce consequat lacus pellentesque metus. Duis euismod. Duis non quam. Maecenas vitae dolor in ipsum auctor vehicula. Vivamus nec nibh eget wisi varius pulvinar. Cras a lacus. Etiam et massa. Donec in nisl sit amet dui imperdiet vestibulum. Duis porttitor nibh id eros.\n";
+    document.getElementById("paragrapheNosOffres").innerHTML = "Vous souhaitez développer une application mobile ? Aucun problème pour notre équipe expérimenter, nos développeurs ayant déjà travailler sur des projets comme l’application Sofanmedia, ils n’auront aucun problèmes pour faire une application mobile qui correspond à vos attentes.\n";
 });
