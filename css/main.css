@@ -14,6 +14,14 @@ header{
     height: 120px;
 }
 
+#numeroVersionMobile a{
+    display: none;
+}
+
+#texteNumeroVersionMobile{
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -645,8 +653,9 @@ a :visited :hover :active{
 }
 
 .logo3{
-    width: 400px;
+    width: 300px;
     height: 100px;
+    padding-left: 20px;
 }
 
 .logo3:hover{
@@ -847,6 +856,14 @@ a :visited :hover :active{
 
     .bouton2{
         margin: 60px auto;
+    }
+
+    #numeroVersionMobile a{
+        display: none;
+    }
+
+    #texteNumeroVersionMobile{
+        display: none;
     }
 
     .nosOffres{
@@ -1196,15 +1213,25 @@ a :visited :hover :active{
     }
 
     #texteNumeroVersionMobile{
-        width: 40px;
-        margin: 0 auto;
+        display: unset;
+        margin-left: 75px;
+        margin-bottom: 50px;
     }
 
-    #numeroVersionMobile{
+    #numeroVersionMobile a{
+        display: unset;
         width: 200px;
-        margin: 30px auto;
         font-size: 30px;
         color: white;
+    }
+
+    #containerNumeroMobile{
+        width: 200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
     }
 
     .page1{
